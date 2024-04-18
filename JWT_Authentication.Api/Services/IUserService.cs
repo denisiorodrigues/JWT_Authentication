@@ -1,6 +1,6 @@
 ﻿namespace JWT_Authentication.Api;
 
-public interface IUserServer
+public interface IUserService
 {
   string Login(User user);
 }

@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace JWT_Authentication.Api;
 
-public class UserService : IUserServer
+public class UserService : IUserService
 {
     private List<User> _users = new List<User>
     {
